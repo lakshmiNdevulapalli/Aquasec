@@ -5,9 +5,9 @@ pipeline {
       steps {
         script {
           docker.build("test")
+          }
         }
 
       }
     }
-  }
 }
